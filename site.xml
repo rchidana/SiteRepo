@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/DECORATION/1.6.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/DECORATION/1.6.
+0 http://maven.apache.org/xsd/decoration-1.6.0.xsd"
+name="Maven Site Repo">
+<bannerLeft>
+    <name>Maven Site Demo</name>
+    <src>https://maven.apache.org/images/apache-maven-project-2.png</src>
+    <href>https://maven.apache.org/</href>
+  </bannerLeft>
+  
+  <bannerRight>
+    <src>https://maven.apache.org/images/maven-logo-2.gif</src>
+  </bannerRight>
+
+<body>
+
+<menu name="Project with Documentation">
+<item name="Overview" href="index.html"/>
+</menu>
+<menu ref="reports"/>
+</body>
+</project>
